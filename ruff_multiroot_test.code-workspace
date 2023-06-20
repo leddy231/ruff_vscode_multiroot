@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "a_lib",
+			"path": "libs/a_lib"
+		},
+		{
+			"name": "b_service",
+			"path": "services/b_service"
+		},
+		{
+			"name": "root",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "./.venv/bin/python",
+	}
+}

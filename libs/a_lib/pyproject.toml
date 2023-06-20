@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "a_lib"
+version = "1.0.0"
+description = ""
+authors = ["leddy231"]
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.272"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["ALL"]
